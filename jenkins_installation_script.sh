@@ -13,7 +13,7 @@ java --version
 
 sudo apt update
 
-sudo apt install openjdk-17-jre
+sudo apt install openjdk-17-jre -y
 
 echo "java is installed"
 
@@ -28,6 +28,6 @@ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
   sudo apt update
 
 
-sudo apt-get install jenkins
+sudo apt-get install jenkins -y
 
 service jenkins status
