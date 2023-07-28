@@ -30,4 +30,4 @@ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
 
 sudo apt-get install jenkins -y
 
-service jenkins status
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
